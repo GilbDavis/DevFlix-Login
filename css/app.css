@@ -7,3 +7,86 @@ html {
 *:before {
   box-sizing: inherit;
 }
+
+body {
+  background-color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #8c8c8c;
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    background-color: unset;
+    background-image: url("../img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+  }
+}
+
+a {
+  color: #8c8c8c;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.contenedor {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.logotipo {
+  margin-top: .5rem;
+  max-width: 180px;
+}
+
+@media only screen and (min-width: 768px) {
+  .logotipo {
+    margin-top: .8rem;
+    margin-left: 2%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .formulario-login {
+    background-color: rgba(0, 0, 0, 0.85);
+    max-width: 450px;
+    padding: 2rem 4rem;
+    margin: 1rem auto 4rem auto;
+  }
+}
+
+form legend {
+  color: #ffffff;
+  font-size: 2rem;
+  margin: 0 0;
+  font-weight: bold;
+}
+
+form .campo {
+  display: -webkit-box;
+  display: flex;
+  position: relative;
+  margin-bottom: .8rem;
+}
+
+form .campo label {
+  position: absolute;
+}
+
+form .campo input {
+  padding: 1.3rem 1rem .7rem 1rem;
+  -webkit-box-flex: 1;
+  flex: 1;
+  border: none;
+  background-color: #323232;
+  border-radius: 5px;
+}
+
+form .campo input:focus {
+  background-color: #454545;
+  outline: none;
+}
