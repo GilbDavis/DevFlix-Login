@@ -24,6 +24,12 @@ body {
   }
 }
 
+@media only screen and (min-width: 1200px) {
+  body {
+    height: 1128px;
+  }
+}
+
 a {
   color: #8c8c8c;
   text-decoration: none;
@@ -75,7 +81,7 @@ input.no-valido {
 form legend {
   color: #ffffff;
   font-size: 2rem;
-  margin: 0 0;
+  margin: 2rem 0;
   font-weight: bold;
 }
 
@@ -177,6 +183,7 @@ form .acciones a {
 @media only screen and (min-width: 768px) {
   .contenido-inferior {
     padding-bottom: 0;
+    margin-top: 10rem;
   }
 }
 
@@ -203,6 +210,7 @@ form .acciones a {
 }
 
 .site-footer {
+  margin-top: 11.1rem;
   border-top: 1px solid #8c8c8c;
   padding: 2rem 0 4rem 0;
 }
